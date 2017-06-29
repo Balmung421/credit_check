@@ -1,4 +1,4 @@
-
+#Complete Credit Check Assignment
 class CreditCheck
   attr_reader :cc_number
 
