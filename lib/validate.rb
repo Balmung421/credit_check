@@ -1,10 +1,10 @@
-module Validate 
+module Validate
 
   def validate
     if summer % 10 == 0
-      puts "The number #{cc_number} is Valid"
+      return "The number #{cc_number} is Valid"
     else
-      puts "The number #{cc_number} is invalid!"
+      return "The number #{cc_number} is invalid!"
     end
   end
 

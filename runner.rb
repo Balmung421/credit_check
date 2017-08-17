@@ -1,8 +1,8 @@
 require './lib/credit_check'
 
-cc  = CreditCheck.new( "4929735477250543")
-cc_1  = CreditCheck.new( "5541808923795240")
-cc_2  = CreditCheck.new( "4024007136512380")
+cc   = CreditCheck.new("4929735477250543")
+cc_1 = CreditCheck.new( "5541808923795240")
+cc_2 = CreditCheck.new( "4024007136512380")
 cc_3 = CreditCheck.new( "6011797668867828")
 cc_4 = CreditCheck.new( "5541801923795240")
 cc_5 = CreditCheck.new( "4024007106512380")

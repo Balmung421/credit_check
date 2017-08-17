@@ -1,3 +1,4 @@
+require 'pry'
 require 'minitest/autorun'
 require 'minitest/emoji'
 require './lib/credit_check'
@@ -15,8 +16,8 @@ class CreditCheckTest < Minitest::Test
   end
 
   def test_if_number_is_valid
-    expected = true
-    assert_equal expected, credit
+    expected = "The number 4929735477250543 is Valid"
+    assert_equal expected, credit.validate
   end
 
 end
