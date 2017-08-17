@@ -1,4 +1,4 @@
-class Converter
+module Converter 
 
   def convert
     cc_number.split("").reverse.map do |number|

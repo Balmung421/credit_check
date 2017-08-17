@@ -1,4 +1,4 @@
-class Doubler
+module Doubler 
 
   def doubler
     doubled = []

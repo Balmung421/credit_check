@@ -1,4 +1,4 @@
-class Validate
+module Validate 
 
   def validate
     if summer % 10 == 0

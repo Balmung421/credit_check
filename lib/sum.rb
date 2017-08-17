@@ -1,4 +1,4 @@
-class Sum
+module Sum 
 
   def summer
     sum = 0
